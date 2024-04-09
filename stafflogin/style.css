@@ -1,0 +1,91 @@
+.popup {
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+    border: 3px solid #cd1616;
+    border-radius: 4px;
+  }
+  /*
+  .popup .content {
+    padding: 20px;
+  }
+  
+  .popup .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+  }*/
+  .admin {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  
+  .header a {
+    color: #141212;
+    text-decoration: none;
+  }
+  
+  .main {
+    margin-top: 20px;
+  }
+  
+  .main input,
+  .main select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #69d1cc;
+    border-radius: 4px;
+  }
+  
+  .main input[type="submit"] {
+    background-color:skyblue;
+    font-size: 15px;
+    color: #131212;
+    border: 2px solid #161717;
+    cursor: pointer;
+  }
+  input[type="text"]{
+    margin-top: 30px;
+  }
+  
+  
+   input[type="email"]{
+    margin-top: 30px;
+  }
+  
+  
+  input[type="telephone"] {
+    margin-top: 30px;
+  }
+
+  input[type="submit"] {
+    margin-top: 30px;
+  }
+  select[name="specialty"]{
+    margin-top: 30px;
+
+  }
+  
+  
+  
